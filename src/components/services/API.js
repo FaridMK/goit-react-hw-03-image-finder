@@ -1,5 +1,7 @@
-const axios = require('axios');
+import axios from 'axios';
+
 const BASE_URL = 'https://pixabay.com/api/';
+
 const searchParams = new URLSearchParams({
   key: '30078306-2ba5f79c85dc6ca60b6a24118',
   image_type: 'photo',
